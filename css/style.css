@@ -15,8 +15,14 @@ body {
     sans-serif;
 }
 
+@media screen and (max-width: 500px) {
+  .media-info-msg {
+    display: none;
+  }
+}
+
 .media-info-msg {
-  position: fixed;
+  position: flex;
   top: 0;
   left: 0;
   width: 100vw;
@@ -25,10 +31,4 @@ body {
   justify-content: center;
   align-items: center;
   background-color: salmon;
-}
-
-@media screen and (max-width: 500px) {
-  .media-info-msg {
-    display: none;
-  }
 }
