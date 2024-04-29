@@ -1,6 +1,7 @@
 header {
   margin-top: 10px;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid gainsboro;
+  padding-bottom: 10px;
 }
 
 .info-bar {
