@@ -1,7 +1,7 @@
 footer {
   position: fixed;
   bottom: 0px;
-  width: 100vw;
+  width: 100vw; /* 우리가 보는 화면에 100% 채운다 */
   padding-bottom: 30px;
   padding-top: 20px;
   border-top: 1px solid #eaeaea;
@@ -25,8 +25,8 @@ footer {
 
 .footer-icons__desc {
   margin-top: 5px;
-  font-size: 6px;
-  font-weight: 100;
+  font-weight: bold;
+  transform: scale(0.8);
 }
 
 @keyframes icons-doong-doong {
