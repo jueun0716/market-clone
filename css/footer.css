@@ -24,7 +24,7 @@ footer {
 }
 
 .footer-icons__desc {
-  margin-top: 5px;
+  margin-top: 6px;
   font-weight: bold;
   transform: scale(0.8);
 }
@@ -47,6 +47,7 @@ footer {
 .footer-icons__img {
   width: 30px;
 }
+
 .footer-icons:hover.footer-icons__img {
   animation: 2s icons-doong-doong;
 }
