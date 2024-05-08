@@ -27,6 +27,7 @@ footer {
   margin-top: 6px;
   font-weight: bold;
   transform: scale(0.8);
+  font-size: 15px;
 }
 
 @keyframes icons-doong-doong {

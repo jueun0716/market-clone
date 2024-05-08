@@ -1,6 +1,6 @@
 const calcTime = (timestamp) => {
   const curTime = new Date().getTime() - 9 * 60 * 60 * 1000; //과거시간
-  const time = new Date(curTime - timestamp); //()안묵어 주면 시간 관련된 값으로 바꿔주려고 사용
+  const time = new Date(curTime - timestamp); //()묶어 주면 시간 관련된 값으로 바꿔주려고 사용
   const hour = time.getHours();
   const minute = time.getMinutes();
   const second = time.getSeconds();
