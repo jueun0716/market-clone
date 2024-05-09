@@ -1,15 +1,3 @@
-const calcTime = (timestamp) => {
-  const curTime = new Date().getTime() - 9 * 60 * 60 * 1000; //과거시간
-  const time = new Date(curTime - timestamp); //()묶어 주면 시간 관련된 값으로 바꿔주려고 사용
-  const hour = time.getHours();
-  const minute = time.getMinutes();
-  const second = time.getSeconds();
-
-  if (hour > 0) return `${hour}시간 전`;
-  else if (minute > 0) return `${minute}분 전`;
-  else if (second > 0) return `${second}초 전`;
-  else "방금 전";
-};
 const renderDate = (data) => {
   const main = document.querySelector("main");
   // [].reverse()=[] 가장 나중에 업데이트 된게 최근 데이터
