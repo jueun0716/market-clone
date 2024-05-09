@@ -1,8 +1,7 @@
 <script>
   import { onMount } from "svelte";
-  import Footer from "../components/Footer.svelte";
   import { getDatabase, ref, onValue } from "firebase/database";
-
+  import Nav from "../components/Nav.svelte";
   
 
     let hour = new Date().getHours();
@@ -79,7 +78,7 @@ onMount(()=> { //렌더링 해도 값이 그대로 있음
     <a class="write-btn" href="#/write">+ 글쓰기</a>
   </main>
 
-  <Footer location="home"/>
+  <Nav location="home"/>
  
   <style>
  

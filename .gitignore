@@ -22,3 +22,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+firebase.js 
+#.gitignore은 깃허브에 연동하지 않는다는 의미
